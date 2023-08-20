@@ -1,44 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin</title>
-</head>
-<body>
-    <h1><a href="admin.html">Punto de Venta - Hornero Consulting</a></h1>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body class="center-content">
+    <h1>
+      <a href="admin.html" class="panel-title"
+        >Punto de Venta - Hornero Consulting</a
+      >
+    </h1>
+    <form class="form-container larger-form">
+      <h2>Panel de administrador</h2>
+      <h3>Eliminar producto</h3>
 
-    <h3>Panel de administador - Alta de producto</h3>
+      <label for="campo" class="form-label">
+        <p>Seleccione un campo de búsqueda:</p>
+      </label>
+      <select id="campo" class="form-input">
+        <option value="codigo">Código de barras</option>
+        <option value="nombre">Nombre del producto</option>
+        <option value="marca">Marca del producto</option>
+      </select>
 
-    <form>
-        <label for="id">
-            <p>Código de barras</p>
-        </label>
-        <input type="text" id="id">
+      <label for="valor" class="form-label">
+        <p>Valor de búsqueda:</p>
+      </label>
+      <input type="text" id="valor" class="form-input" size="50" />
 
-        <label for="nombre">
-            <p>Nombre del producto</p>
-        </label>
-        <input type="text" id="nombre">
-
-        <label for="marca">
-            <p>Marca del producto</p>
-        </label>
-
-        <label for="precio">
-            <p>Precio</p>
-        </label>
-        <input type="number" id="precio">
-
-        <label for="imagen">
-            <p>Imagen del producto</p>
-        </label>
-        <input type="file" id="imagen" accept=".png">
+      <button class="submit-btn" type="submit">Buscar Producto</button>
     </form>
 
-    <footer>
-        <small>&copy; Copyright 2023, Hornero Consulting</small>
+    <footer class="footer">
+      <small>&copy; Copyright 2023, Hornero Consulting</small>
     </footer>
-    
-</body>
+  </body>
 </html>
