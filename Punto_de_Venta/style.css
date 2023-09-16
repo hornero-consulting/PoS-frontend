@@ -1,0 +1,111 @@
+body {
+    background-color: #a8cdf3;
+  }
+  
+  .center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .footer {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .panel-title {
+    font-size: 24px;
+    margin-bottom: 100px;
+  }
+  
+  .btn-option {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 250px;
+
+  }
+  .sidebar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+  }
+  
+  .content {
+    margin-left: 250px;
+    padding: 20px;
+  }
+  .form-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Agrega estos estilos personalizados */
+.custom-table {
+  border-collapse: separate;
+  border-spacing: 0 10px; /* Ajusta el espaciado vertical como prefieras */
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 8px; /* Ajusta el padding si es necesario */
+  text-align: flex; /* Centra el contenido en las celdas */
+}
+.item-list {
+  margin-top: 20px; /* Ajusta el margen superior como prefieras */
+}
+  

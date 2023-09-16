@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Admin-index</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <br /><br /><br />
+      <ul class="list-unstyled">
+        <li>
+          <a class="btn btn-success btn-option" href="/Punto_de_Venta/alta-producto.html"
+            >Alta de producto</a
+          >
+        </li>
+        <li>
+          <a
+            class="btn btn-warning btn-option"
+            href="/Punto_de_Venta/modificacion-producto.html"
+            >Modificar producto</a
+          >
+        </li>
+        <li>
+          <a
+            class="btn btn-danger btn-option"
+            href="/Punto_de_Venta/eliminar-producto.html"
+            >Eliminar producto</a
+          >
+        </li>
+        <li>
+          <a
+            class="btn btn-dark btn-option"
+            href="/Punto_de_Venta/stock.html"
+            >Consultar Stock</a
+          >
+        </li>
+        <li>
+          <a
+            class="btn btn-info btn-option"
+            href="/Punto_de_Venta/admin.html"
+            >Volver</a
+          >
+        </li>
+
+      </ul>
+    </div>
+
+    <div style="background-color: #333; color: white; padding: 10px">
+      <h1 style="margin: 0; padding: 10px; text-align: center; font-weight: bold; ">
+        Cargar Factura - Hornero Consulting
+      </h1>
+    </div>
+    
+    <div class="content" id="dynamic-content">
+      <div class="form">
+        <form onsubmit="agregarElemento(); return false;">
+          <div class="row">
+            <div class="col-md-3 mb-3">
+              <label for="codigoBarrasInput" class="form-label"
+                >Codigo de Barras</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="codigoBarrasInput"
+                placeholder=""
+              />
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="descripcion" class="form-label">Descripcion</label>
+              <input
+                type="text"
+                class="form-control"
+                id="descripcion"
+                readonly
+              />
+            </div>
+
+            <div class="col-md-2 mb-3">
+              <label for="Unidades" class="form-label">Unidades</label>
+              <input
+                type="number"
+                class="form-control"
+                id="unidades"
+                oninput="calcularTotal()"
+              />
+            </div>
+            <div class="col-md-2 mb-3">
+              <label for="precioUnitario" class="form-label">Precio Unitario</label>
+              <div class="input-group">
+                <span class="input-group-text">$</span>
+                <input
+                  type="number"
+                  step="0.01"
+                  class="form-control"
+                  id="precioUnitario"
+                  oninput="calcularTotal()"
+                />
+              </div>
+            </div>
+            
+            <div class="col-md-2 mb-3">
+              <label for="Total" class="form-label">Total</label>
+              <div class="input-group">
+                <span class="input-group-text">$</span>
+                <input
+                  type="number"
+                  step="0.01"
+                  class="form-control"
+                  id="precioTotal"
+                  readonly
+                />
+              </div>
+            </div>
+            <button
+              type="button"
+              class="btn btn-primary"
+              onclick="agregarElemento()"
+            >
+              Agregar
+            </button>
+          </div>
+          
+        </form>
+
+        <table class="table table-bordered item-list custom-table">
+          <thead>
+            <tr>
+              <th>Código de Barras</th>
+              <th>Descripcion</th>
+              <th>Unidades</th>
+              <th>Total</th>
+              <th>Total Factura:$ <span id="total-sum">0.00</span> </th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <ul class="item-list"></ul>
+      <button id="guardarCambiosBtn3" class="btn btn-primary" style="float: right;">
+        Guardar Cambios
+    </button>
+    
+    </div>
+    
+    <script src="/Punto_de_Venta/cargar_factura_script.js"></script>
+    
+  </body>
+</html>

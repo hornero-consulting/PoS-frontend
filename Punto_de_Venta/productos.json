@@ -1,0 +1,163 @@
+[
+    {
+      "codigoBarras": "001",
+      "nombreProducto": "Galletas",
+      "stockDisponible": 150,
+      "precioCosto": 10.00,
+      "porcentajeGanancia": 30,
+      "precioVenta": 13.00
+    },
+    {
+      "codigoBarras": "002",
+      "nombreProducto": "Chocolate",
+      "stockDisponible": 80,
+      "precioCosto": 15.00,
+      "porcentajeGanancia": 25,
+      "precioVenta": 18.75
+    },
+    {
+      "codigoBarras": "003",
+      "nombreProducto": "Papas Fritas",
+      "stockDisponible": 120,
+      "precioCosto": 8.50,
+      "porcentajeGanancia": 40,
+      "precioVenta": 11.90
+    },
+    {
+      "codigoBarras": "004",
+      "nombreProducto": "Agua Mineral",
+      "stockDisponible": 200,
+      "precioCosto": 5.00,
+      "porcentajeGanancia": 20,
+      "precioVenta": 6.00
+    },
+    {
+      "codigoBarras": "005",
+      "nombreProducto": "Refresco de Cola",
+      "stockDisponible": 100,
+      "precioCosto": 12.00,
+      "porcentajeGanancia": 15,
+      "precioVenta": 13.80
+    },
+    {
+      "codigoBarras": "006",
+      "nombreProducto": "Chicles",
+      "stockDisponible": 250,
+      "precioCosto": 2.50,
+      "porcentajeGanancia": 50,
+      "precioVenta": 3.75
+    },
+    {
+      "codigoBarras": "007",
+      "nombreProducto": "Cigarrillos",
+      "stockDisponible": 50,
+      "precioCosto": 30.00,
+      "porcentajeGanancia": 10,
+      "precioVenta": 33.00
+    },
+    {
+      "codigoBarras": "008",
+      "nombreProducto": "Revistas",
+      "stockDisponible": 30,
+      "precioCosto": 5.00,
+      "porcentajeGanancia": 40,
+      "precioVenta": 7.00
+    },
+    {
+      "codigoBarras": "009",
+      "nombreProducto": "Cerveza",
+      "stockDisponible": 60,
+      "precioCosto": 18.00,
+      "porcentajeGanancia": 25,
+      "precioVenta": 22.50
+    },
+    {
+      "codigoBarras": "010",
+      "nombreProducto": "Caramelos",
+      "stockDisponible": 200,
+      "precioCosto": 1.00,
+      "porcentajeGanancia": 60,
+      "precioVenta": 1.60
+    },
+    {
+      "codigoBarras": "011",
+      "nombreProducto": "Pañuelos de Papel",
+      "stockDisponible": 80,
+      "precioCosto": 3.00,
+      "porcentajeGanancia": 35,
+      "precioVenta": 4.05
+    },
+    {
+      "codigoBarras": "012",
+      "nombreProducto": "Cepillos de Dientes",
+      "stockDisponible": 40,
+      "precioCosto": 4.50,
+      "porcentajeGanancia": 30,
+      "precioVenta": 5.85
+    },
+    {
+      "codigoBarras": "013",
+      "nombreProducto": "Papel Higiénico",
+      "stockDisponible": 100,
+      "precioCosto": 6.00,
+      "porcentajeGanancia": 25,
+      "precioVenta": 7.50
+    },
+    {
+      "codigoBarras": "014",
+      "nombreProducto": "Lapiceros",
+      "stockDisponible": 50,
+      "precioCosto": 1.50,
+      "porcentajeGanancia": 40,
+      "precioVenta": 2.10
+    },
+    {
+      "codigoBarras": "015",
+      "nombreProducto": "Café Instantáneo",
+      "stockDisponible": 60,
+      "precioCosto": 8.00,
+      "porcentajeGanancia": 30,
+      "precioVenta": 10.40
+    },
+    {
+      "codigoBarras": "016",
+      "nombreProducto": "Baterías AA",
+      "stockDisponible": 40,
+      "precioCosto": 3.50,
+      "porcentajeGanancia": 25,
+      "precioVenta": 4.38
+    },
+    {
+      "codigoBarras": "017",
+      "nombreProducto": "Cuchillas de Afeitar",
+      "stockDisponible": 30,
+      "precioCosto": 6.00,
+      "porcentajeGanancia": 20,
+      "precioVenta": 7.20
+    },
+    {
+      "codigoBarras": "018",
+      "nombreProducto": "Paraguas",
+      "stockDisponible": 20,
+      "precioCosto": 10.00,
+      "porcentajeGanancia": 25,
+      "precioVenta": 12.50
+    },
+    {
+      "codigoBarras": "019",
+      "nombreProducto": "Pilas AAA",
+      "stockDisponible": 50,
+      "precioCosto": 2.00,
+      "porcentajeGanancia": 40,
+      "precioVenta": 2.80
+    },
+    {
+      "codigoBarras": "020",
+      "nombreProducto": "Botellas de Agua de 500ml",
+      "stockDisponible": 150,
+      "precioCosto": 0.50,
+      "porcentajeGanancia": 60,
+      "precioVenta": 0.80
+    }
+  ]
+  
